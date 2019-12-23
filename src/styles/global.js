@@ -42,6 +42,10 @@ export default createGlobalStyle`
     list-style: none;
   }
 
+  input {
+    border: none;
+  }
+
   button {
     border: 0;
     cursor: pointer;

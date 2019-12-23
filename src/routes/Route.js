@@ -20,7 +20,7 @@ export default function RouteWrapper({
   }
 
   if (signed && !isPrivate) {
-    return <Redirect to="/empresas" />;
+    return <Redirect to="/dispositivos" />;
   }
   if (signed) {
     api.defaults.headers.Authorization = `Bearer ${token}`;

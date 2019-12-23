@@ -2,10 +2,19 @@ import React from 'react';
 
 import PropTypes from 'prop-types';
 
-import { Container } from './styles';
+import Logo from '~/assets/logo.svg';
+
+import { Wrapper, Content } from './styles';
 
 export default function AuthLayout({ children }) {
-  return <Container>{children}</Container>;
+  return (
+    <Wrapper>
+      <Content>
+        <img src={Logo} alt="Logo Peggy" />
+        {children}
+      </Content>
+    </Wrapper>
+  );
 }
 
 AuthLayout.propTypes = {
