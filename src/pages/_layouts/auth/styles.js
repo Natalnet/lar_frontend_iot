@@ -78,20 +78,24 @@ export const Content = styled.div`
       }
     }
   }
-  div {
+
+  form + div {
     display: flex;
     justify-content: space-between;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
 
     margin-top: 20px;
 
-    a {
-      color: ${Type.off};
-      font-weight: bold;
+    color: ${Type.off};
+    font-weight: bold;
 
-      transition: color 0.1s linear;
-      &:hover {
-        color: ${Type[0]};
-      }
+    transition: color 0.1s linear;
+    &:hover {
+      color: ${Type[0]};
     }
   }
 `;
