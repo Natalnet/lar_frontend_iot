@@ -1,27 +1,14 @@
 import React from 'react';
-import { Switch } from 'react-router-dom';
+import { Switch, Route as Router } from 'react-router-dom';
 
+import Devices from '~/pages/Devices';
+import NotFound from '~/pages/NotFound';
 import Recover from '~/pages/RecoverPassword';
 import Register from '~/pages/Register';
 import Reset from '~/pages/ResetPassword';
 import Login from '~/pages/SignIn';
-import history from '~/services/history';
 
 import Route from './Route';
-
-function ButtonExit() {
-  return (
-    <button
-      type="button"
-      onClick={() => {
-        localStorage.clear();
-        history.push('/');
-      }}
-    >
-      Sair
-    </button>
-  );
-}
 
 export default function Routes() {
   return (
@@ -30,7 +17,8 @@ export default function Routes() {
       <Route exact path="/register" component={Register} />
       <Route exact path="/recover-password" component={Recover} />
       <Route exact path="/reset-password" component={Reset} />
-      <Route path="*" component={ButtonExit} isPrivate />
+      <Route exact path="/dispositivos" component={Devices} isPrivate />
+      <Router path="*" component={NotFound} />
     </Switch>
   );
 }
