@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Site LAR IOT
+<hr>
 
-## Available Scripts
+Atualmente esta na seguinte url: [LAR - IOT](https://plaayhost.com.br)
 
-In the project directory, you can run:
+### `yarn install`
+<hr>
+Esse comando irá instalar todas as dependências do projeto.
 
 ### `yarn start`
+<hr>
+Executa o aplicativo no modo de desenvolvimento. Abra <a target="_blank" href="http://localhost:3000">http://localhost:3000</a> para ver no seu navegador. A página será recarregada se você fizer edições. Você também verá quaisquer erros de lint no console.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Rotas
+<hr>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+`/` => Mostra uma tela de login.<br>
+`/dispositivos`=> Mostra página base do sistema.<br>
+`*` => Qualquer outra rota mostra página de erro 404.<br>
 
-### `yarn test`
+### Colaboradores
+<hr>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/orivaldosantana">
+        <img src="https://avatars3.githubusercontent.com/u/19957124?s=400&v=4" width="100px;" alt="Orivaldo Santana Jr"/>
+        <br />
+        <sub><b>Orivaldo Santana Jr</b></sub>
+      </a><br />
+      <a href="https://github.com/Natalnet/lop-front-end/commits?author=orivaldosantana" title="Code">💻</a>
+    </td> 
+    <td align="center">
+      <a href="https://github.com/VictorHAS">
+        <img src="https://avatars1.githubusercontent.com/u/32372238?s=460&v=4" width="100px;" alt="Victor Hermes"/>
+        <br />
+        <sub><b>Victor Hermes</b></sub>
+      </a><br />
+      <a href="https://github.com/Natalnet/lop-front-end/commits?author=VictorHAS" title="Code">💻</a>
+      <a href="https://www.figma.com/proto/DVSmOKBpPfUiNTJ7z2nKyJ/LAR_IOT?node-id=0%3A1&scaling=min-zoom" title="Code">🎨</a>
+    </td>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  </tr>
+</table>

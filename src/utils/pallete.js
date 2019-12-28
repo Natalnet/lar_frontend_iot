@@ -11,9 +11,14 @@ export const Type = {
   200: '#757575',
   400: '#939393',
   off: '#999999',
+  active: '#444444',
 };
 
-export const Others = { border: '#DDDDDD', A_color: '#ffc700' };
+export const Others = {
+  background: '#CCCCCC',
+  border: '#DDDDDD',
+  A_color: '#ffc700',
+};
 
 export const BoxShadow = {
   1: '0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.20)',
