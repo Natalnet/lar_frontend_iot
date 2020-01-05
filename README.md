@@ -3,6 +3,8 @@
 
 Atualmente esta na seguinte url: [LAR - IOT](https://plaayhost.com.br)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/94f68ac7-6d7c-44a8-80b6-6715f471797a/deploy-status)](https://app.netlify.com/sites/lariot/deploys)
+
 ### `yarn install`
 <hr>
 Esse comando irá instalar todas as dependências do projeto.
