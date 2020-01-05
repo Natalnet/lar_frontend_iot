@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 import logo from '~/assets/logo.svg';
 import api from '~/services/api';
+import history from '~/services/history';
 
 import { Container, Content, Menu, User } from './styles';
 
@@ -19,6 +20,11 @@ export default function Header() {
 
     getInformations();
   }, []);
+
+  function logout() {
+    localStorage.clear();
+    history.push('/');
+  }
 
   return (
     <Container>
@@ -47,7 +53,7 @@ export default function Header() {
             <strong>{user.username}</strong>
             {/* <NavLink to="/perfil">Meu perfil</NavLink> Only in next version */}
           </div>
-          <IoIosLogOut size={36} />
+          <IoIosLogOut size={36} onClick={() => logout()} />
         </User>
       </Content>
     </Container>
